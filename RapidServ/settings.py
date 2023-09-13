@@ -25,12 +25,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Apps 
     'rapidserv',
-    'rest_framework',
     'cadastro',
     'usuario',
     'cliente',
     'profissional',
+
+    # Django rest framework
+    'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
